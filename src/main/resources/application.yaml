@@ -1,0 +1,55 @@
+server:
+  port: 8081
+
+spring:
+  profiles:
+    active: dev
+
+---
+spring:
+  datasource:
+    password: password
+    url: jdbc:mysql://localhost:3306/sbmsapp
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  config:
+    activate:
+      on-profile: dev
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        exclude: "env,beans"
+---
+
+spring:
+  datasource:
+    password: password
+    url: jdbc:mysql://localhost:3306/sbmsapp-qa
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  config:
+    activate:
+      on-profile: qa
+
+---
+
+spring:
+  datasource:
+    password: password
+    url: jdbc:mysql://localhost:3306/sbmsapp-prod
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  config:
+    activate:
+      on-profile: prod
