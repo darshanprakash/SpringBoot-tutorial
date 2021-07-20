@@ -1,8 +1,8 @@
-package com.darshan.springbootmicroservice.service;
+package com.darshan.springbootTutorial.service;
 
-import com.darshan.springbootmicroservice.entity.Department;
-import com.darshan.springbootmicroservice.error.DepartmentNotFoundException;
-import com.darshan.springbootmicroservice.repository.DepartmentRepository;
+import com.darshan.springbootTutorial.entity.Department;
+import com.darshan.springbootTutorial.error.DepartmentNotFoundException;
+import com.darshan.springbootTutorial.repository.DepartmentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,7 +1,7 @@
-package com.darshan.springbootmicroservice.controller;
+package com.darshan.springbootTutorial.controller;
 
-import com.darshan.springbootmicroservice.entity.Department;
-import com.darshan.springbootmicroservice.service.DepartmentService;
+import com.darshan.springbootTutorial.entity.Department;
+import com.darshan.springbootTutorial.service.DepartmentService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;

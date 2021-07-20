@@ -1,7 +1,7 @@
-package com.darshan.springbootmicroservice.service;
+package com.darshan.springbootTutorial.service;
 
-import com.darshan.springbootmicroservice.entity.Department;
-import com.darshan.springbootmicroservice.repository.DepartmentRepository;
+import com.darshan.springbootTutorial.entity.Department;
+import com.darshan.springbootTutorial.repository.DepartmentRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

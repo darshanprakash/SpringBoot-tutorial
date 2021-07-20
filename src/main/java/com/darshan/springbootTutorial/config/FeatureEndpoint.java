@@ -1,4 +1,4 @@
-package com.darshan.springbootmicroservice.config;
+package com.darshan.springbootTutorial.config;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

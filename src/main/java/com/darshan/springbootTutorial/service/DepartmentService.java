@@ -1,7 +1,7 @@
-package com.darshan.springbootmicroservice.service;
+package com.darshan.springbootTutorial.service;
 
-import com.darshan.springbootmicroservice.entity.Department;
-import com.darshan.springbootmicroservice.error.DepartmentNotFoundException;
+import com.darshan.springbootTutorial.entity.Department;
+import com.darshan.springbootTutorial.error.DepartmentNotFoundException;
 
 import java.util.List;
 

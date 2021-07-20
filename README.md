@@ -1,6 +1,6 @@
-# SpringBoot-Microservice
+# SpringBoot-tutorial
 
-SpringBoot project demonstrating micro-service architecture
+SpringBoot project demonstrating features of Springboot for a production level application.
 
 credits: 
 Shabbir Dawoodi

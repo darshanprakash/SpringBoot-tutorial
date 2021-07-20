@@ -1,4 +1,4 @@
-package com.darshan.springbootmicroservice.entity;
+package com.darshan.springbootTutorial.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

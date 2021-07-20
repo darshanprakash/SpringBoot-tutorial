@@ -1,4 +1,4 @@
-package com.darshan.springbootmicroservice.error;
+package com.darshan.springbootTutorial.error;
 
 public class DepartmentNotFoundException extends Exception{
 

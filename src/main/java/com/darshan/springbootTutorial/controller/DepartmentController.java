@@ -1,8 +1,8 @@
-package com.darshan.springbootmicroservice.controller;
+package com.darshan.springbootTutorial.controller;
 
-import com.darshan.springbootmicroservice.entity.Department;
-import com.darshan.springbootmicroservice.error.DepartmentNotFoundException;
-import com.darshan.springbootmicroservice.service.DepartmentService;
+import com.darshan.springbootTutorial.entity.Department;
+import com.darshan.springbootTutorial.error.DepartmentNotFoundException;
+import com.darshan.springbootTutorial.service.DepartmentService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
